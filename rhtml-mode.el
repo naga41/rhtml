@@ -51,7 +51,7 @@
   ;; disable if you don't want it...
   (rhtml-activate-fontification))
 
-(add-to-list 'auto-mode-alist '("\\.html\\.erb$" . rhtml-mode))
+(add-to-list 'auto-mode-alist '("\\.erb$" . rhtml-mode))
 
 (define-key ruby-mode-map
   "\C-c\C-v" (lambda () (interactive) (toggle-buffer 'rails-view)))
